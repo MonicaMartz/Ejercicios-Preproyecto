@@ -1,0 +1,27 @@
+
+
+
+h1 {font-family: 'Mansalva', cursive; font-size: xx-large; text-align: center; color:rgb(70, 70, 173)}
+h2 {font-family: 'Raleway', sans-serif; text-align: center; color:rgb(255, 174, 0)}
+h3 {font-family: 'Raleway', sans-serif; font-size: x-large: center; color:rgb(255, 223, 243)}
+h5 {font-family: 'Mansalva', sans-serif; text-align: center; :}
+p {text-align: center;}
+body {text-align:center}
+
+#eleccion {
+  background-color: rgb(10, 85, 85);
+  color: white;
+}
+#primerCaja {
+  background-color: rgb(19, 163, 163);
+  color: white;
+}
+#segundaCaja {
+  background-color: rgb(128, 104, 172);
+  color: white;
+}
+
+#terceraCaja {
+  background-color: rgb(185, 28, 185);
+  color: white;
+}

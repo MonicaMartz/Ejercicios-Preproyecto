@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+<script src="script.js"></script>
+
+    <!-- fuentes de google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mansalva|Raleway&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <script src="script.js"></script>
+
+
+    </script><div id="inicio">
+	<h1> ¿Estas listo para el reto?</h1>
+    <h2><strong> <font size = "2">¿Cúal es tu nombre?</strong></h2>
+
+   <!-- peticion nombre -->
+
+<!--PRUEBA 25 MIL-->
+<!--duda: form action= nombre_doc php?-->
+<form action= "" class= "formulario" name="formulario" method="get">
+  <input type="text" id="nombreUsuario1" value ="Escribe tu nombre"  onkeyup ="mostrarnombre"()>
+ <!-- <input type="submit" id= "inicio" name="inicio" value="Jugar">-->
+
+<button onclick="mostrarnombre()">Jugar</button>
+
+<p id="demo"></p>
+
+  </form>
+
+
+<script src="script.js"></script>
+
+
+<!-- Elección de tema -->
+        <div class="eleccion">
+<h2><a id="saludos" </a>Selecciona una temática</h2>
+
+ <button type="button" onClick=document.getElementById('primerCaja')"style.visibility='visible'>Música</button>
+
+  <button type="button" id="cine" >Cine</button>
+<!-- Elección de tema -->
+
+<!---prueba de formulario pregunta uno para registrar datos-->
+
+<div id="primerCaja">
+<h3><a id="pregunta1"</a><font size = "4">Pregunta 1</h3>
+<p>¡Comenzamos!</p>
+<p>Aquí la pregunta uno</p>
+<form action= "" name="formulario1" method="get">
+<p><input type="radio" name="respuesta1" id="valorc" value="c">Correcta
+</p>
+<p><input type="radio" name="respuesta1" id="valord" value="d">Incorrecta
+</p>
+<input type="submit"  id= "envio" name="envio" value="Enviar">
+<!--boton prueba de envio de info-->
+
+<p><button onclick="tercer paso">Siguiente</button></p>
+</form>
+</div>
+
+<div id="segundaCaja">
+<h3><a id="pregunta2"</a><font size = "4">Pregunta 2</h3>
+<p><input type="radio" name="pregunta2" value="c">A</p>
+<p><input type="radio" name="pregunta2" value="d">B</p>
+<p>Vamos justo a la mitad, ánimo!!!</p>
+<p><button onclick="tercer paso">Siguiente</button></p>
+</div>
+
+<div id="terceraCaja">
+<h3><a id="pregunta3"</a><font size = "4">Pregunta 3</h3>
+<p><input type="radio" name="pregunta3" value="e">Correcta</p>
+<p><input type="radio" name="pregunta3" value="f">Incorrecta</p>
+<p>Estamos por terminar, vamos a conocer tus resultados</p>
+<p><button onclick="ultimo paso">Resultados</button></p>
+<a id="inicio"</a>
+</div>
+
+
+<div id="resultados">
+<h5><a </a> <font size = "6">Obtuviste este numero de aciertos:</h5>
+</div>
+
+    <script src="script.js"></script>
+
+<button type="button" id="jugarDeNuevo" >Jugar de nuevo</button>
+
+
+
+
+
+
+  </body>
+</html>
